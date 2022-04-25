@@ -41,5 +41,6 @@ public class VarEx3 {
         // long lll = 3.14f; // long < float
         // float fff = 3.14; // float < double
         // byte, short 변수에 ini 리터럴 저장가능, 단, 변수의 타입의 범위 이내여야 함
+
     }
 }
