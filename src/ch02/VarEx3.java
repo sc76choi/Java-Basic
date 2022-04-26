@@ -15,9 +15,16 @@ public class VarEx3 {
 
         boolean power = true;
         char ch = 'A';
-        String str = "ABC";
-
-        byte b = 127; // -128~ 127 // 128Type mismatch: cannot convert from int to byte
+        int chi = 'A';
+        System.out.println(chi); // 65
+        
+        String str = "ABC"; // 클래스
+        String elev = "" + 7 + 7;
+        System.out.println(elev); // 77
+        String elev2 = 7 + 7 + "";
+        System.out.println(elev2); // 14
+        
+        byte b = 127; // -128~ 127 // 128 -> Type mismatch: cannot convert from int to byte
 
         int hex = 0x100; // 16진수
         int i = 100; // 10진수
@@ -42,5 +49,6 @@ public class VarEx3 {
         // float fff = 3.14; // float < double
         // byte, short 변수에 ini 리터럴 저장가능, 단, 변수의 타입의 범위 이내여야 함
 
+        
     }
 }
