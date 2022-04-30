@@ -1,4 +1,4 @@
-package ch02;
+package javajungsuk3.ch02;
 
 /**
  * 리터럴의 접두사와 접미사
